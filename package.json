@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lorenamarchan/poc_storybook_ci/issues"
   },
-  "homepage": "https://github.com/lorenamarchan/poc_storybook_ci#readme"
+  "homepage": "https://github.com/lorenamarchan/poc_storybook_ci#readme",
+  "devDependencies": {
+    "chromatic": "^6.10.1"
+  }
 }
