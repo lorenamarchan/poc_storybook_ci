@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -17,6 +22,20 @@
   },
   "homepage": "https://github.com/lorenamarchan/poc_storybook_ci#readme",
   "devDependencies": {
-    "chromatic": "^6.10.1"
+    "@babel/core": "^7.19.3",
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-interactions": "^6.5.12",
+    "@storybook/addon-links": "^6.5.12",
+    "@storybook/builder-webpack4": "^6.5.12",
+    "@storybook/manager-webpack4": "^6.5.12",
+    "@storybook/testing-library": "0.0.13",
+    "@storybook/vue": "^6.5.12",
+    "babel-loader": "^8.2.5",
+    "chromatic": "^6.10.1",
+    "vue-loader": "^15.10.0"
+  },
+  "dependencies": {
+    "nuxt": "^2.15.8"
   }
 }
